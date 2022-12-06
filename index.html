@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="Administrator.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nikola Petreski</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", function () {
+        VANTA.HALO({
+          el: "#your-element-selector",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.0,
+          minWidth: 200.0,
+          baseColor: 0xb924b9,
+          backgroundColor: 0x9696d7,
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <canvas id="bg"></canvas>
+
+    <main>
+      <header>
+        <h1 class="np">Nikola Petreski</h1>
+        <p>Full Stack Web Developer</p>
+      </header>
+
+      <blockquote>
+        <p>
+          I believe that an app shouldn't be just a tool, but a way to
+          <strong>express yourself</strong>.
+        </p>
+      </blockquote>
+
+      <section class="hidden">
+        <h2>About Me</h2>
+        <p>
+          My name is Nikola Petreski, and I am a Full Stack web developer with
+          over five years of experience with UI design. I take great pride in
+          the actual process of creating a beautiful and optimized application
+          that brings joy to the users who may incorporate it as a part of their
+          life. I come from a multidisciplinary background in management,
+          policy, and natural sciences. It was there that I realized just how
+          interconnected the world of computing is to the rest of the world.
+        </p>
+
+        <p>
+          My personal favorite technology stack is ReactJS for the front end,
+          with MongoDB and NodeJS/Express to fulfill backend needs. Furthermore,
+          for solo projects I feel like I am able to get a lot of value through
+          just React and FireBase. I am also familiar with using Django and
+          Flask to build backends, with some experience building graphical user
+          interfaces with Python.
+        </p>
+      </section>
+      <blockquote>
+        <p>Check out some of my projects!</p>
+      </blockquote>
+      <section class="hidden">
+        <button
+          class="btn"
+          onclick="window.open('https://funny-valkyrie-6d390d.netlify.app/ ', '_blank')"
+        >
+          <h2>Zen Planner</h2>
+        </button>
+
+        <p>
+          Click the button above to check out Zen Planner, a minimalistic take
+          on a Todo app that allows you to plan your day and keep track of your
+          progress. It is built with ReactJS, and has an interesting take on
+          styling. I attempt to utilize a minimalist approach while still
+          incorporating some of the more modern design trends like multicolor
+          gradients and shadows.
+        </p>
+      </section>
+
+      <section class="hidden">
+        <button
+          class="btn"
+          onclick="window.open('https://lustrous-tulumba-9dbca8.netlify.app/','_blank')"
+        >
+          <h2>Wizard Memory</h2>
+        </button>
+        <p>
+          This is a memory game built with ReactJS. It is a simple game that
+          tests your memory. The goal is to click on each image only once. If
+          you click on the same image twice, you lose. The game is over when you
+          have clicked on all 12 images. The game will keep track of your score
+          and will reset when you lose. This particular game has a twist, as it
+          has a magical medieval theme.
+        </p>
+      </section>
+
+      <blockquote>
+        <p>
+          Thanks for visiting! if you'd <br />
+          like to see some more of my<br />
+          code, click to check out my
+          <a
+            onClick="window.open
+           ('https://github.com/Tarnishing', '_blank')"
+            >GitHub.</a
+          >
+        </p>
+      </blockquote>
+    </main>
+  </body>
+</html>

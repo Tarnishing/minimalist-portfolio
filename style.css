@@ -1,0 +1,105 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+body {
+  --dark-bg: #ccc;
+  --spacing: 350px;
+  background-color: #f2f2f2;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  align-items: center;
+  padding: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 0;
+  align-content: center;
+}
+
+h1,
+h2,
+h3,
+blockquote {
+  font-family: elevon, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+header {
+  background: var(--dark-bg);
+  grid-column: 2 / span 5;
+  font-size: 1rem;
+  padding: 2rem;
+  margin-bottom: var(--spacing);
+  display: flex;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#vanta {
+  z-index: 99;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+section {
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing);
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  margin-bottom: var(--spacing);
+}
+
+blockquote p {
+  color: black;
+
+  font-size: 4rem;
+  display: inline;
+  line-height: 1;
+}
+
+a {
+  color: rgb(0, 249, 162);
+  text-decoration: none;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+}
+
+title {
+  display: flex;
+}
+
+.np {
+  display: flex;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  padding-right: 5px;
+}
